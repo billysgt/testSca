@@ -1,3 +1,4 @@
+
 object Main extends App {
 
   def findCube(x: Int): Int = {
@@ -6,6 +7,7 @@ object Main extends App {
   }
 
   println("Hello!")
+  println("This")
 
 
 }
