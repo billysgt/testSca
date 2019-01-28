@@ -5,6 +5,8 @@ object Main extends App {
     x * x * x
   }
 
+  println("Hello!")
+
 
 }
 
