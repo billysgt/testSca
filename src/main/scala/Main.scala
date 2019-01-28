@@ -1,3 +1,4 @@
+
 object Main extends App {
 
   def findCube(x: Int): Int = {
