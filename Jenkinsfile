@@ -4,7 +4,7 @@ pipeline {
     stage('Compile') {
       steps {
         git(url: 'https://github.com/billysgt/testSca.git', branch: 'branch2')
-        sh 'sh "${tool name: \'sbt\', type:\'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation\'}/bin/sbt compile"'
+        sh "./sbt clean compile"
       }
     }
   }
